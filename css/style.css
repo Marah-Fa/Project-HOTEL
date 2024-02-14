@@ -1,0 +1,351 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+header{
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(248, 245, 245, 0.478);
+    background: linear-gradient(to bottom,rgba(255, 206, 108, 0.651),rgba(240, 248, 255, 0.799));
+}
+
+.srar{
+    cursor: pointer;
+ margin:0px 15px;
+}
+.srar .sea{
+     margin: 15px;
+    padding: 15px;
+    width: 300px;
+    height: 35px;
+    font-size: large;
+}
+
+.logo:hover{
+    cursor: pointer;
+    transform: rotate(-10deg);
+    /* transform: translate(10px,10px); */
+    transition: 1s;
+    
+}
+
+nav a{
+    padding: 15px;
+    text-decoration: none;
+    font-size: larger;
+  color: black;
+}
+nav a:hover{
+    background-color: hsla(193, 68%, 78%, 0.911);
+    border-radius: 80%;
+}
+
+.home-page{
+    height: 100vh;
+    background-image: url(../images/5.jpg);
+    background-size: 100% 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-radius: 90%; */
+ 
+}
+
+.reserve{
+    
+    background-color: rgba(255, 255, 255, 0.56);
+    padding: 30px;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.reserve h1{
+    padding: 15px;
+    font-size: 350%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.input{ 
+    padding: 15px;
+    width: 250px;
+    height: 50px;
+    font-size: large;
+    border-radius: 80px;
+}
+
+.number{
+    border-radius: 80%;
+    width: 70px;
+    height: 35px;
+    padding: 15px;
+    font-size: large;
+}
+
+ .label{
+    padding: 15px;
+    font-style: italic;
+    font-size: 180%;
+}
+.reserve  button{
+    padding: 8px;
+    margin: 0px 15px;
+    width: 60px;
+    border-color:rgba(255, 255, 255, 0.732);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: medium;
+
+}
+
+
+
+.feel-like-traveling{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+
+}
+
+
+.cuntry{
+        height: 400px;
+        width: 20%;
+        border: 2px solid black;
+        margin: 20px 15px;
+        padding: 15px ;
+    
+    
+}
+
+.cuntry:hover{
+    border-radius: 80px;
+    box-shadow: 8px 8px 10px rgba(26, 63, 89, 0.701);
+    transform: translate(-15px,-15px);
+    transition: 0.5s;
+    text-align: center; 
+    cursor: grabbing;
+}
+
+
+
+
+.feel-like-traveling h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feel-like-traveling .cuntry{
+    font-size: xx-large;
+}
+
+.feel{
+    margin-top: 25px;margin-left: 30px;
+    padding: 25px;
+    font-size: 200%;
+    width: 35%;
+    border: 1px solid rgba(0, 0, 0, 0.351);
+    background-color: rgba(210, 127, 86, 0.651);
+border-radius: 115px;
+
+}
+.cuntry img{
+    width: 100%;
+    height: 90%;
+    padding: 15px 0px;
+}
+
+.more .cuntry img{
+    width: 100%;
+    height: 80%;
+    padding: 15px 0px;
+}
+.cuntry img:hover{
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.box{
+    width: 100%;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.discounts{
+    font-style: italic;
+    padding: 30px;
+    margin: 0px 30px;
+    border: 2px solid black;
+    width: 40%;
+
+/* transform: translate(200px,0px); */
+}
+.discounts img{
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    left: 28%;
+    border-radius: 20px;
+
+
+}
+.discounts h1,p,button{
+    margin: 8px 0px;
+    padding: 8px;
+}
+
+.discounts p,button{
+    font-size: larger;
+}
+
+.discounts button {
+    background: linear-gradient(to right,rgb(182, 228, 235),white);
+    cursor: pointer;
+}
+/* .discounts .img1{
+    width: 25%;
+    display: inline;
+
+} */
+
+
+.ineresting{
+    font-style: italic;
+    padding: 30px;
+    margin: 0px 30px;
+    border: 2px solid black;
+    width: 40%;
+}
+.ineresting{
+    background-image: url(../images/flights-cover-AR22092020.jpg);
+background-size: 100% 100%;
+}
+
+.ineresting h2,h3,p{
+    margin: 8px 0px;
+    padding: 8px;
+}
+.ineresting p{
+    width: 40%;
+    font-size: larger;
+}
+
+.ineresting a{
+    text-decoration: none;
+    font-size: larger;
+}
+
+.ineresting a:hover{
+    font-size:xx-large;
+    color: rgba(237, 108, 61, 0.895);
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+
+
+
+.more-interesting-places{
+    margin: 40px;
+    padding: 15px;
+    font-size: 200%;
+    width: 90%;
+    border: 1px solid rgba(0, 0, 0, 0.351);
+    background-color: rgba(216, 138, 98, 0.741);
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.more{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+
+.more h1{  
+    font-size:larger;
+}
+
+.secret{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+    margin: 0px 30px;
+    border: 2px solid rgba(0, 0, 0, 0.419);
+    width: 80%;  
+    transform: translate(200px,0px);
+}
+ .secret img{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    left: 60%;
+ }
+.secret h1,h2,.in,button{
+    padding: 10px;
+
+}
+
+.secret .in{
+    margin: 15px;
+    padding: 15px;
+    width: 700px;
+    height: 35px;
+    font-size: large;
+}
+
+.secret button{
+    background-color: rgba(180, 241, 255, 0.807);
+}
+
+footer{
+    padding: 40px;
+    margin-top: 30px;
+    border-top: 2px solid rgba(0, 0, 0, 0.419);
+    background-color: gainsboro;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+flex-wrap: wrap;
+}
+
+footer h5,.social{
+    margin: 8px 0px;
+    cursor: pointer;
+}
+
+.social{
+    padding: 15px;
+    margin-left: 15px;
+    font-size: larger;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.social div{
+     padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer h5{
+    font-size:x-large;
+
+}
